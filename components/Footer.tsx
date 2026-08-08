@@ -17,12 +17,12 @@ export default function Footer() {
           {/* Column 1: Clinic Logo, Name & Credentials */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 relative flex items-center justify-center shrink-0">
+              <div className="w-11 h-11 relative flex items-center justify-center shrink-0 overflow-hidden rounded-xl bg-white/10 p-1">
                 <Image
-                  src="/images/logo.svg"
+                  src="/images/logo.png"
                   alt="Sri Shiva Sai Physiotherapy & Chiropractic Clinic Logo"
-                  width={40}
-                  height={40}
+                  width={44}
+                  height={44}
                   className="w-full h-full object-contain"
                 />
               </div>

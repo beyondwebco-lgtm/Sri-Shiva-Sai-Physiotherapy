@@ -46,12 +46,12 @@ export default function Header({ onOpenBooking }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo & Clinic Title */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-11 h-11 relative flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+          <div className="w-12 h-12 relative flex items-center justify-center group-hover:scale-105 transition-transform shrink-0 overflow-hidden rounded-xl">
             <Image
-              src="/images/logo.svg"
+              src="/images/logo.png"
               alt="Sri Shiva Sai Physiotherapy & Chiropractic Clinic Logo"
-              width={44}
-              height={44}
+              width={48}
+              height={48}
               className="w-full h-full object-contain"
               priority
             />
