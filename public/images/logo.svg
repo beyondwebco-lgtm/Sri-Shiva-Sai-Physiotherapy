@@ -1,49 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
-  <!-- Circular Badge Background with Navy/Teal Split Gradient -->
-  <circle cx="50" cy="50" r="48" fill="url(#clinicBgGradient)" />
+  <!-- Precision Brand Container -->
+  <rect width="100" height="100" rx="24" fill="url(#bgGrad)" />
 
-  <!-- Dynamic Active Motion Human Silhouette (White) -->
-  <!-- Head -->
-  <circle cx="55" cy="22" r="6" fill="#FFFFFF" />
+  <!-- Outer Fine Medical Ring -->
+  <circle cx="50" cy="50" r="40" stroke="#0D9488" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="4 2" />
 
-  <!-- Active Torso & Spine -->
-  <path d="M 54 28 C 48 38 45 48 52 58 C 55 62 58 66 54 74" 
-        stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" fill="none" />
+  <!-- Primary Spinal Arc (Deep Navy Ribbon) -->
+  <path d="M 38 68 C 30 54 36 34 50 30 C 64 26 72 36 66 48 C 62 56 46 54 44 66 C 42 78 58 78 68 68" 
+        stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
 
-  <!-- Front Arm (Raised Mobility Pose) -->
-  <path d="M 52 35 L 68 32 L 78 40" 
-        stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- Dynamic Posture Wave Ribbon (Vibrant Teal Accent) -->
+  <path d="M 62 32 C 70 46 64 66 50 70 C 36 74 28 64 34 52 C 38 44 54 46 56 34 C 58 22 42 22 32 32" 
+        stroke="#0D9488" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
 
-  <!-- Back Arm (Agility Reach Pose) -->
-  <path d="M 52 35 L 36 38 L 28 50" 
-        stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- Central Alignment Point (Gleaming Cyan Node) -->
+  <circle cx="50" cy="50" r="4.5" fill="#38BDF8" />
 
-  <!-- Front Leg (Knee Flexion & Stride) -->
-  <path d="M 52 58 L 66 66 L 62 82 M 62 82 L 68 85" 
-        stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-
-  <!-- Back Leg (Restored Stride Extension) -->
-  <path d="M 52 58 L 38 68 L 26 80" 
-        stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-
-  <!-- Highlighted Joint & Spine Therapy Nodes (Emerald / Amber Accent) -->
-  <!-- Shoulder Joint -->
-  <circle cx="52" cy="35" r="3.5" fill="#10B981" stroke="#FFFFFF" stroke-width="1" />
-  <!-- Front Elbow Joint -->
-  <circle cx="68" cy="32" r="3" fill="#10B981" stroke="#FFFFFF" stroke-width="1" />
-  <!-- Lumbar Spine Node -->
-  <circle cx="49" cy="49" r="3.5" fill="#10B981" stroke="#FFFFFF" stroke-width="1" />
-  <!-- Front Knee Joint -->
-  <circle cx="66" cy="66" r="3.5" fill="#10B981" stroke="#FFFFFF" stroke-width="1" />
-  <!-- Back Ankle Joint -->
-  <circle cx="38" cy="68" r="3" fill="#10B981" stroke="#FFFFFF" stroke-width="1" />
-
-  <!-- Gradient Definitions -->
+  <!-- Gradient Background Definition -->
   <defs>
-    <linearGradient id="clinicBgGradient" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#0F2C59" />
-      <stop offset="60%" stop-color="#0D9488" />
-      <stop offset="100%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#08162E" />
     </linearGradient>
   </defs>
 </svg>
