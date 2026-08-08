@@ -1,26 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
-  <!-- Precision Brand Container -->
-  <rect width="100" height="100" rx="24" fill="url(#bgGrad)" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Outer Gold/Bronze Circular Arc and Supporting Hand at Bottom -->
+  <path d="M 50 18 C 100 8 180 30 180 90 C 180 120 165 145 140 160 C 120 172 95 178 70 174 C 55 170 42 162 35 150 C 45 154 60 156 75 152 C 90 148 105 138 118 128 C 130 118 140 108 148 98 L 152 102 C 142 115 130 128 115 138 C 98 150 78 158 55 154 C 40 150 28 140 22 125 M 50 18 C 30 25 15 45 15 70 C 15 95 25 120 40 138" 
+        stroke="#BEA074" stroke-width="6" stroke-linecap="round" fill="none" />
+  
+  <!-- Solid Gold Supportive Hand Shape -->
+  <path d="M 45 170 C 75 176 115 168 152 145 C 170 134 182 120 185 110 C 178 122 165 134 148 142 C 115 158 75 162 48 156 Z" 
+        fill="#BEA074" />
 
-  <!-- Outer Fine Medical Ring -->
-  <circle cx="50" cy="50" r="40" stroke="#0D9488" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="4 2" />
+  <!-- Dark Navy Outer Swoosh Arc -->
+  <path d="M 38 42 C 60 18 120 16 165 42 C 180 65 180 105 156 135" 
+        stroke="#182535" stroke-width="8" stroke-linecap="round" fill="none" />
 
-  <!-- Primary Spinal Arc (Deep Navy Ribbon) -->
-  <path d="M 38 68 C 30 54 36 34 50 30 C 64 26 72 36 66 48 C 62 56 46 54 44 66 C 42 78 58 78 68 68" 
-        stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Grey Head Circle -->
+  <circle cx="125" cy="40" r="14" fill="#889098" />
 
-  <!-- Dynamic Posture Wave Ribbon (Vibrant Teal Accent) -->
-  <path d="M 62 32 C 70 46 64 66 50 70 C 36 74 28 64 34 52 C 38 44 54 46 56 34 C 58 22 42 22 32 32" 
-        stroke="#0D9488" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Dark Navy Main Spine & Active Posture Figure -->
+  <path d="M 115 48 C 85 52 70 65 72 82 C 75 100 115 95 138 105 C 152 112 145 135 120 150 C 95 165 72 152 62 142 L 72 135 C 80 142 100 150 118 140 C 135 130 138 118 126 112 C 108 102 62 108 58 82 C 55 60 75 42 110 38 Z" 
+        fill="#182535" />
 
-  <!-- Central Alignment Point (Gleaming Cyan Node) -->
-  <circle cx="50" cy="50" r="4.5" fill="#38BDF8" />
+  <!-- Vertebrae Spine Dots (Gold / Bronze) -->
+  <circle cx="68" cy="65" r="3.5" fill="#BEA074" />
+  <circle cx="65" cy="74" r="3.5" fill="#BEA074" />
+  <circle cx="64" cy="83" r="3.5" fill="#BEA074" />
+  <circle cx="65" cy="92" r="3.5" fill="#BEA074" />
+  <circle cx="69" cy="101" r="3.5" fill="#BEA074" />
 
-  <!-- Gradient Background Definition -->
-  <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0F2C59" />
-      <stop offset="100%" stop-color="#08162E" />
-    </linearGradient>
-  </defs>
+  <!-- Grey Chest & Arm Swoosh -->
+  <path d="M 110 65 C 122 72 138 76 142 88 C 130 84 118 78 108 72 Z" 
+        fill="#889098" />
+
+  <!-- Grey Lower Leg Swoosh -->
+  <path d="M 68 115 C 55 130 38 145 22 156 L 26 160 C 45 148 65 130 78 112 Z" 
+        fill="#889098" />
 </svg>
