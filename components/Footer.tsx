@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, MessageSquare, MapPin } from "lucide-react";
 
 export default function Footer() {
@@ -13,11 +14,17 @@ export default function Footer() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
           
-          {/* Column 1: Clinic Name & Credentials */}
+          {/* Column 1: Clinic Logo, Name & Credentials */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-brand-teal text-white flex items-center justify-center font-extrabold text-lg shadow-sm">
-                SSS
+              <div className="w-10 h-10 relative flex items-center justify-center shrink-0">
+                <Image
+                  src="/images/logo.svg"
+                  alt="Sri Shiva Sai Physiotherapy & Chiropractic Clinic Logo"
+                  width={40}
+                  height={40}
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <div className="font-heading font-extrabold text-white text-base leading-tight">

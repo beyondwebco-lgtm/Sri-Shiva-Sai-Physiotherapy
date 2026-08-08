@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, MessageSquare, Menu, X, Calendar } from "lucide-react";
 
 interface HeaderProps {
@@ -43,10 +44,17 @@ export default function Header({ onOpenBooking }: HeaderProps) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        {/* Logo & Clinic Monogram */}
+        {/* Logo & Clinic Title */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-brand-navy to-brand-teal flex items-center justify-center text-white font-extrabold text-lg shadow-md group-hover:scale-105 transition-transform">
-            SSS
+          <div className="w-11 h-11 relative flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+            <Image
+              src="/images/logo.svg"
+              alt="Sri Shiva Sai Physiotherapy & Chiropractic Clinic Logo"
+              width={44}
+              height={44}
+              className="w-full h-full object-contain"
+              priority
+            />
           </div>
           <div>
             <div className="font-heading font-extrabold text-brand-navy text-base sm:text-lg leading-none tracking-tight">
@@ -86,7 +94,7 @@ export default function Header({ onOpenBooking }: HeaderProps) {
 
           <button
             onClick={() => onOpenBooking()}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-navy hover:bg-brand-darkNavy text-white font-bold text-xs shadow-md hover:shadow-lg transition-all transform active:scale-95"
+            className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-navy hover:bg-brand-darkNavy text-white font-bold text-xs shadow-md hover:shadow-lg transition-all transform active:scale-95 cursor-pointer"
           >
             <Calendar className="w-4 h-4 text-emerald-400" />
             BOOK APPOINTMENT
