@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color: #0F172A;
+    background-color: #FAFAFC;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #FAFAFC;
+    color: #0F172A;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.025em;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+/* Custom UI Utility & Component Styles */
+.font-heading {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-sans {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Custom Medical Color Tokens & Classes */
+.bg-brand-navy {
+  background-color: #0F2C59;
+}
+.bg-brand-darkNavy {
+  background-color: #08162E;
+}
+.bg-brand-teal {
+  background-color: #0D9488;
+}
+.bg-brand-lightTeal {
+  background-color: #E6FFFA;
+}
+.bg-brand-cyan {
+  background-color: #0284C7;
+}
+.bg-brand-lightCyan {
+  background-color: #E0F2FE;
+}
+.bg-brand-emerald {
+  background-color: #059669;
+}
+.bg-brand-lightEmerald {
+  background-color: #ECFDF5;
+}
+.bg-brand-surface {
+  background-color: #FAFAFC;
+}
+
+.text-brand-navy {
+  color: #0F2C59;
+}
+.text-brand-teal {
+  color: #0D9488;
+}
+.text-brand-cyan {
+  color: #0284C7;
+}
+.text-brand-emerald {
+  color: #059669;
+}
+
+.border-brand-navy {
+  border-color: #0F2C59;
+}
+.border-brand-teal {
+  border-color: #0D9488;
+}
+.border-brand-cyan {
+  border-color: #0284C7;
+}
+
+/* Glassmorphism & Shadow Effects */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+.shadow-premium {
+  box-shadow: 0 10px 40px -10px rgba(15, 44, 89, 0.12);
+}
+
+.shadow-card-hover {
+  box-shadow: 0 20px 40px -15px rgba(15, 44, 89, 0.15);
+}
+
+/* Smooth Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float-slow {
+  animation: float 5s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out 2.5s infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
