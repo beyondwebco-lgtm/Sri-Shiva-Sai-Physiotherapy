@@ -60,7 +60,9 @@ export default function ContactSection({ onOpenBooking }: ContactSectionProps) {
 
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-emerald-400" />
-            <span>Peerzadiguda, Uppal, Hyderabad</span>
+            <a href="https://maps.app.goo.gl/VkdHPPKJZd5vWdQdA" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-white">
+              Parvathapur, Peerzadiguda, Hyderabad
+            </a>
           </div>
         </div>
 

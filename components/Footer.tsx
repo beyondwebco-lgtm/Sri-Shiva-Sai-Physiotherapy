@@ -7,6 +7,7 @@ export default function Footer() {
   const whatsappUrl = `https://wa.me/91${phone}?text=${encodeURIComponent(
     "Hello, I would like to enquire about physiotherapy treatment."
   )}`;
+  const mapsUrl = "https://maps.app.goo.gl/VkdHPPKJZd5vWdQdA";
 
   return (
     <footer className="bg-brand-darkNavy text-slate-300 pt-16 pb-24 md:pb-12 border-t border-slate-800">
@@ -86,10 +87,11 @@ export default function Footer() {
             <div className="space-y-2.5 text-xs">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
-                <span>
-                  I-92/2, Beside Parvatapur SBI Branch,<br />
-                  Peerzadiguda, Uppal, Hyderabad, Telangana
-                </span>
+                <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-white">
+                  1-92/2, Bhavani Bhavnagar,<br />
+                  Parvathapur, Peerzadiguda,<br />
+                  Hyderabad, Telangana 500098
+                </a>
               </div>
 
               <div className="flex items-center gap-2.5">
@@ -119,7 +121,7 @@ export default function Footer() {
         {/* Bottom Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>© 2026 Sri Shiva Sai Physiotherapy & Chiropractic Clinic. All rights reserved.</p>
-          <p>Dr. Shankar.N (MPT Ortho, NDT) | Peerzadiguda, Uppal, Hyderabad</p>
+          <p>Dr. Shankar.N (MPT Ortho, NDT) | Parvathapur, Peerzadiguda, Hyderabad</p>
         </div>
 
       </div>

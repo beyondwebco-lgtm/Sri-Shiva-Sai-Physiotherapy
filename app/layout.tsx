@@ -64,7 +64,7 @@ export default function RootLayout({
     "telephone": "+919652164938",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "I-92/2, Beside Parvatapur SBI Branch, Peerzadiguda, Uppal",
+      "streetAddress": "1-92/2, Bhavani Bhavnagar, Parvathapur, Peerzadiguda",
       "addressLocality": "Hyderabad",
       "addressRegion": "Telangana",
       "postalCode": "500098",
@@ -72,8 +72,8 @@ export default function RootLayout({
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 17.4052,
-      "longitude": 78.5714
+      "latitude": 17.3913072,
+      "longitude": 78.6075047
     },
     "medicalSpecialty": [
       "Physiotherapy",

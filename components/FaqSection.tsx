@@ -46,7 +46,7 @@ export default function FaqSection({ onOpenBooking }: FaqSectionProps) {
     },
     {
       q: "Where is the clinic located?",
-      a: "The clinic is located at I-92/2, Beside Parvatapur SBI Branch, Peerzadiguda, Uppal, Hyderabad, Telangana.",
+      a: "The clinic is located at 1-92/2, Bhavani Bhavnagar, Parvathapur, Peerzadiguda, Hyderabad, Telangana 500098.",
     },
     {
       q: "How can I book an appointment?",

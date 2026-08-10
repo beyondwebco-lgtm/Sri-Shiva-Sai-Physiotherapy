@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
     {
       icon: MapPin,
       title: "Convenient Hyderabad Location",
-      desc: "Easily accessible clinic located right beside Parvatapur SBI Branch in Peerzadiguda, Uppal.",
+      desc: "Easily accessible clinic located at Bhavani Bhavnagar, Parvathapur, Peerzadiguda.",
     },
   ];
 
